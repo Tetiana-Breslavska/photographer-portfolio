@@ -1,8 +1,140 @@
-body{
-    background: blueviolet;
+body {
+    padding: 20px;
+    background: #202020;
+    color: #ffffff;
 }
 
-h1{
-    font-size: 56px;
+h1 {
+    font-size: 40px;
+
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.banner {
+    padding: 200px 0;
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.banner-text {
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.button {
+    
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #272142;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button:hover{
+    background: crimson;
+    color: #ffffff;
+
+}
+
+
+
+.row-photos {
+    justify-content: space-evenly;
+}
+
+.image-wrapper {
+    padding: 15px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+.social-networks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+
+
+}
+
+.social-networks li a {
+    margin-right: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.social-networks li a:hover{
+    color: crimson;
+        
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-image img{
+    max-width: 100%;
+
+}
+.camera-wrapper{
+    display: flex;
+}
+
+
+
+
+@media(min-width: 575px) {
+    .image-wrapper {
+        text-align: center;
+        
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+}
+
+@media (min-width: 985px) {
+    .row-photos {
+        justify-content: space-between;
+    }
 
 }
