@@ -1,12 +1,35 @@
+:root {
+    --brand-color: #F65282;
+    --footer-bg: #282323;
+    --nav-bg: #202020;
+    --content-bg: #1B1B1B;
+
+
+}
+
+
 body {
-    padding: 20px;
-    background: #202020;
+    /* padding: 20px; */
+    background: var(--content-bg);
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 64px;
+    font-weight: 700;
 
+
+}
+
+h3 {
+    color: var(--brand-color);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -32,7 +55,7 @@ h1 {
 }
 
 .button {
-    
+
     background: #ffffff;
     border-radius: 20px;
     padding: 5px 20px;
@@ -42,7 +65,7 @@ h1 {
     white-space: nowrap;
 }
 
-.button:hover{
+.button:hover {
     background: crimson;
     color: #ffffff;
 
@@ -64,15 +87,20 @@ h1 {
 }
 
 .footer {
+    padding: 20px 70px;
+    background: var(--footer-bg);
     text-align: center;
     justify-content: center;
-    
+
+
 
 
 }
 
-.footer p{
+.footer p {
     font-size: 12px;
+
+
 }
 
 .social-networks {
@@ -90,24 +118,61 @@ h1 {
     color: #ffffff;
     font-size: 30px;
     transition: all 0.5s ease-in-out;
+
+}
+
+.social-networks li a:hover {
+    color: var(--brand-color);
+
+}
+
+.about-content {
+    display: flex;
     
 }
 
-.social-networks li a:hover{
-    color: crimson;
-        
+
+
+.about-image img {
+    max-width: 700px;
+    height: 600px;
+
+}
+.about-descr{
+    padding: 20px;
+
+    &.social-networks{
+        font-size: 18px;
+    }
 }
 
-.about-content{
+.about-descr p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+
+.camera-wrapper {
     display: flex;
+    justify-content: space-around;
+    background: #2D2727;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+
 }
 
-.about-image img{
-    max-width: 100%;
-
+.camera-wrapper img {
+    max-width: 50px;
+    height: auto;
 }
-.camera-wrapper{
-    display: flex;
+
+.contact-button {
+    background: #ffffff;
+    color: #272142;
+    padding: 18px 25px;
+    text-decoration: none;
+    border-radius: 50px;
 }
 
 
@@ -116,7 +181,7 @@ h1 {
 @media(min-width: 575px) {
     .image-wrapper {
         text-align: center;
-        
+
     }
 
     .logo {
