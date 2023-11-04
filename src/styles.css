@@ -13,14 +13,24 @@ body {
     background: var(--content-bg);
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-
 }
 
 h1 {
-    font-size: 64px;
+    text-align: center;
+    font-size: 30px;
     font-weight: 700;
+    line-height: 84px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
 
-
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 h3 {
@@ -30,6 +40,10 @@ h3 {
     letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+video{
+    color: #ffffff;
 }
 
 
@@ -51,18 +65,26 @@ h3 {
 .banner-text {
     margin: 0 auto;
     margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
 
 }
 
 .button {
 
     background: #ffffff;
-    border-radius: 20px;
-    padding: 5px 20px;
+    border-radius: 50px;
+    padding: 18px 30px;
     color: #272142;
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 10px;
 }
 
 .button:hover {
@@ -131,8 +153,6 @@ h3 {
     
 }
 
-
-
 .about-image img {
     max-width: 700px;
     height: 600px;
@@ -179,9 +199,11 @@ h3 {
 
 
 @media(min-width: 575px) {
+    h1{
+        font-size: 52px;
+    }
     .image-wrapper {
         text-align: center;
-
     }
 
     .logo {
@@ -192,12 +214,12 @@ h3 {
         display: flex;
         justify-content: space-between;
     }
-
-
-
 }
 
 @media (min-width: 985px) {
+    h1{
+        font-size: 72px;
+    }
     .row-photos {
         justify-content: space-between;
     }
