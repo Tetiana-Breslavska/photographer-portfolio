@@ -128,7 +128,7 @@ video{
 .social-networks {
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     text-align: center;
 
@@ -195,7 +195,36 @@ video{
     border-radius: 50px;
 }
 
+.all-contacts{
+    list-style: none;
+    text-align: center;
+    margin-top: 100px;
+}
 
+.all-contacts li{
+    margin-bottom: 70px;
+}
+
+.all-contacts i {
+    margin-right: 10px;
+}
+
+.all-contacts a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.contact-type{
+    text-transform: uppercase;
+    color:var(--brand-color);
+    font-size: 14px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    line-height: 16px;
+}
 
 
 @media(min-width: 575px) {
