@@ -126,6 +126,18 @@ h3 {
     color: var(--brand-color);
 }
 
+.open-source {
+    text-align: start;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.open-source a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .about-descr {
     padding: 20px;
 }
