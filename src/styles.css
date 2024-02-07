@@ -45,7 +45,7 @@ h3 {
 
 .banner {
     padding: 200px 0;
-    background-image: url("images/bg-home-page.png");
+    background-image: url("../images/bg-home-page.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
